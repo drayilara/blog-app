@@ -1,0 +1,10 @@
+<%- include('header') -%>
+
+ <%   post.forEach(post => {  %>
+    <h1><%= post.title %></h1>
+    <p><%=  post.content %></p> 
+    <%  })  %>
+
+
+
+<%- include('footer.ejs') -%>

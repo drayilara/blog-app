@@ -1,0 +1,22 @@
+<%- include('header') -%>
+
+
+<h1>Write the buzz!</h1>
+
+<form action="/" method="post">
+    <div class="form-group">
+        <label for="title">Title</label><br>
+        <input type="text" name="title" required><br>
+    </div>
+
+    <div class="form-group">
+        <label for="content">Compose the next thing!</label><br>
+        <textarea type="text" name="compose" class="form-control" rows="15" cols="10" required></textarea><br>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-lg btn-primary">Publish</button>
+    </div>   
+</form>
+
+
